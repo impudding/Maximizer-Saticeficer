@@ -28,14 +28,17 @@ model = ols('ad_recog ~ C(size)*C(RL)*C(hashtag)', df_m).fit()
 # Seeing if the overall model is significant
 print(f"\nOverall model F({model.df_model: .0f},{model.df_resid: .0f}) = {model.fvalue: .3f}, p = {model.f_pvalue: .4f}")
 
+
 # brand attitude
 brand_data = rp.summary_cont(df_m.groupby(['size', 'RL', 'hashtag']))['brand']
 print('brand attitude\n')
 display(brand_data)
 #brand_data.to_csv('m_out.csv', sep='\t', encoding='utf-8')
+
 model = ols('brand ~ C(size)*C(RL)*C(hashtag)', df_m).fit()
 # Seeing if the overall model is significant
 print(f"\nOverall model F({model.df_model: .0f},{model.df_resid: .0f}) = {model.fvalue: .3f}, p = {model.f_pvalue: .4f}")
+
 
 # purchase intention
 purch_intent_data = rp.summary_cont(df_m.groupby(['size', 'RL', 'hashtag']))['purch_intent']
@@ -67,6 +70,8 @@ display(ad_recog_data)
 brand_data = rp.summary_cont(df_s.groupby(['size', 'RL', 'hashtag']))['brand']
 print('brand attitude\n')
 display(brand_data)
+
+
 
 # purchase intention
 purch_intent_data = rp.summary_cont(df_s.groupby(['size', 'RL', 'hashtag']))['purch_intent']
