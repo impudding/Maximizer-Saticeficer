@@ -1,5 +1,4 @@
-size,hashtag,RL,trial count,total fixation duration average,"total fixation count average","fix.dur account average","fix.count account average","fix.dur logo
-average","fix.count logo average","fix.dur picture average","fix.count picture average","fix.dur text average","fix.count text average",total fixation duration,total fixation count,fix.dur account,fix.count account,fix.dur logo,fix.count logo,fix.dur picture,fix.count picture,fix.dur text,fix.count text,"sac.amplitude trial average"
+size,hashtag,RL,trial count,total_fix_dur_avr,total fix_count_avr,account_fix_dur_avr,account_fix_count_avr,logo_fix_dur_avr,logo_fix_count_avr,pic_fix_dur_avr,pic_fix_count_avr,total fixation duration,total fixation count,fix.dur account,"fix.count account ",fix.dur logo,fix.count logo,fix.dur picture,fix.count picture,fix.dur text,"fix.dur text average","fix.count text average",fix.count text,"sac.amplitude trial average"
 s,low,l,3.00,8326.44,31.33,291.33,1.67,0.00,0.00,1430.33,5.33,6520.67,23.67,24979.32,94,874,5,0,0,4291,16,19562,71,3.92
 s,low,r,3.00,8688.90,32.00,56.00,0.33,105.00,0.33,2911.33,11.33,5582.33,19.67,26066.69,96,168,1,315,1,8734,34,16747,59,3.98
 s,high,l,3.00,7986.63,31.67,450.00,1.33,131.00,0.33,1816.67,7.67,5589.00,22.33,23959.90,95,1350,4,393,1,5450,23,16767,67,4.06
